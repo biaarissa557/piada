@@ -1,0 +1,12 @@
+import streamlit as st
+
+# Título do aplicativo
+st.title('Piada do Computador')
+
+# Entrada de texto para o nome
+nome = st.text_input('Qual é o seu nome?')
+
+if nome:
+    st.write(f'Olá, {nome}!')
+    st.write('Por que o computador foi ao médico?')
+    st.write('Porque ele pegou um vírus! 😂')
